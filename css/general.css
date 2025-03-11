@@ -3,6 +3,24 @@ header {
   background-color: #d8a377;
 }
 
-@ƒont-face {
+@font-face {
   font-family: "montserrat";
+  src: url(../fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Poiret One";
+  src: url(../fonts/Poiret_One/PoiretOne-Regular.ttf);
+}
+
+p {
+  font-family: "montserrat";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Poiret One";
 }
