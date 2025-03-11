@@ -19,9 +19,17 @@ li {
   main {
     max-width: 1000px;
     margin: 0 auto;
+    .grid_2-1 {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
   }
 }
 
 /* Desktop */
 @media (width>=1200px) {
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
 }
