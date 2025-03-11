@@ -24,6 +24,11 @@ li {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
   .order {
     order: -1;
   }
@@ -35,12 +40,13 @@ li {
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+  .grid_1-1-1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 30px;
+    align-items: center;
+  }
   .order {
     order: -1;
   }
-}
-
-.grid_1-1-1-1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
 }

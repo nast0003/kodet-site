@@ -25,6 +25,9 @@ h5 {
   font-family: "Poiret One";
 }
 
+.section1 {
+  background-color: #d8a377;
+}
 .index_cta {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.25);
@@ -35,4 +38,13 @@ h5 {
   font-family: "montserrat";
   text-align: center;
   box-shadow: 1px 4px rgba(0, 0, 0, 0.35);
+  margin-bottom: 10px;
+  align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
 }
