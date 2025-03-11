@@ -15,6 +15,7 @@ header {
 
 p {
   font-family: "montserrat";
+  padding: 10px;
 }
 
 h1,
@@ -25,30 +26,47 @@ h5 {
   font-family: "Poiret One";
 }
 
+h2 {
+  background-color: #e1d6c0;
+}
+
 a {
   text-decoration: none;
 }
 
 .section1 {
   background-color: #d8a377;
+  padding: 20px;
 }
 
 .section2 {
   background-color: #e1d6c0;
+  padding: 20px;
 }
 
 .index_cta {
   display: inline-block;
-  background-color: rgba(0, 0, 0, 0.25);
+  background-color: #d4762c;
+  border-radius: 5rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "montserrat";
+  box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.index_cta2 {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.2);
   color: black;
-  padding: 40px 30px;
-  border-radius: 40px;
+  padding: 3rem 2rem;
+  border-radius: 3rem;
   text-decoration: none;
   font-family: "montserrat";
   text-align: center;
   box-shadow: 1px 4px rgba(0, 0, 0, 0.35);
   margin-bottom: 10px;
-  margin-left: 120px;
   align-items: center;
 }
 
@@ -61,34 +79,45 @@ a {
 
 /* Tablet */
 @media (width>=700px) {
-  .button-container {
-    flex-direction: row; /* Knapperne vises på én linje */
-    justify-content: center; /* Centrerer knapperne horisontalt */
-    gap: 20px; /* Større afstand mellem knapperne */
+  h2 {
+    background-color: #e1d6c0;
   }
-
-  .index_cta {
-    padding: 20px 40px;
-    font-size: 18px;
-  }
-
   .button-text {
     font-size: 16px;
+  }
+
+  .index_cta2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 3rem 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    text-align: center;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.35);
+    margin-bottom: 10px;
+    align-items: center;
   }
 }
 
 /* Desktop */
 @media (width>=1200px) {
-  .button-container {
-    gap: 30px; /* Større afstand mellem knapperne */
+  .index_cta2 {
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.2);
+    color: black;
+    padding: 3rem 2rem;
+    border-radius: 3rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    text-align: center;
+    box-shadow: 1px 4px rgba(0, 0, 0, 0.35);
+    margin-bottom: 10px;
+    align-items: center;
   }
 
-  .index_cta {
-    padding: 25px 50px;
-    font-size: 20px;
-  }
-
-  .button-text {
-    font-size: 18px;
+  h2 {
+    background-color: #e1d6c0;
   }
 }
