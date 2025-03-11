@@ -25,6 +25,18 @@ h5 {
   font-family: "Poiret One";
 }
 
+a {
+  text-decoration: none;
+}
+
+.section1 {
+  background-color: #d8a377;
+}
+
+.section2 {
+  background-color: #e1d6c0;
+}
+
 .index_cta {
   display: inline-block;
   background-color: rgba(0, 0, 0, 0.25);
@@ -38,4 +50,45 @@ h5 {
   margin-bottom: 10px;
   margin-left: 120px;
   align-items: center;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+/* Tablet */
+@media (width>=700px) {
+  .button-container {
+    flex-direction: row; /* Knapperne vises på én linje */
+    justify-content: center; /* Centrerer knapperne horisontalt */
+    gap: 20px; /* Større afstand mellem knapperne */
+  }
+
+  .index_cta {
+    padding: 20px 40px;
+    font-size: 18px;
+  }
+
+  .button-text {
+    font-size: 16px;
+  }
+}
+
+/* Desktop */
+@media (width>=1200px) {
+  .button-container {
+    gap: 30px; /* Større afstand mellem knapperne */
+  }
+
+  .index_cta {
+    padding: 25px 50px;
+    font-size: 20px;
+  }
+
+  .button-text {
+    font-size: 18px;
+  }
 }

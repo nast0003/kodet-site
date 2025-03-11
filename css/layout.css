@@ -20,15 +20,6 @@ li {
     max-width: 1000px;
     margin: 0 auto;
   }
-
-  .section1 {
-    background-color: #d8a377;
-  }
-
-  .section2 {
-    background-color: #e1d6c0;
-  }
-
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -37,20 +28,10 @@ li {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
   }
-
-  .order {
-    order: -1;
-  }
 }
 
 /* Desktop */
 @media (width>=1200px) {
-  .section1 {
-    background-color: #d8a377;
-  }
-  .section2 {
-    background-color: #e1d6c0;
-  }
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -60,8 +41,5 @@ li {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
     align-items: center;
-  }
-  .order {
-    order: -1;
   }
 }
