@@ -9,3 +9,19 @@ img {
   height: auto;
   display: block;
 }
+
+li {
+  list-style: none;
+}
+
+/* Tablet */
+@media (width>=700px) {
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+/* Desktop */
+@media (width>=1200px) {
+}
