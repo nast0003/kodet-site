@@ -1,0 +1,71 @@
+main {
+  background-color: #a3cba9;
+  padding: 10px;
+}
+
+footer,
+header {
+  background-color: #88ae8e;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: rgb(0, 47, 0);
+}
+
+@font-face {
+  font-family: "montserrat";
+  src: url(fonts/Montserrat/static/Montserrat-Regular.ttf);
+}
+
+@font-face {
+  font-family: "actor";
+  src: url(fonts/Actor/Actor-Regular.ttf);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: montserrat;
+}
+
+p,
+footer,
+ul,
+li,
+dl {
+  font-family: actor;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* links */
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #a3cba9;
+}
+
+a:visited {
+  color: black;
+}
+
+a:link {
+  color: #a3cba9;
+}
+
+a:active {
+  color: #a3cba9;
+}
