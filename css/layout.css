@@ -19,10 +19,13 @@ li {
   main {
     max-width: 1000px;
     margin: 0 auto;
-    .grid_2-1 {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
+  }
+  .grid_2-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+  }
+  .order {
+    order: -1;
   }
 }
 
@@ -31,5 +34,8 @@ li {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+  }
+  .order {
+    order: -1;
   }
 }
