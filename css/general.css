@@ -47,6 +47,7 @@ a {
 .index_cta {
   display: inline-block;
   background-color: #d4762c;
+  color: black;
   border-radius: 5rem;
   padding: 1rem;
   text-decoration: none;
@@ -86,6 +87,19 @@ a {
     font-size: 16px;
   }
 
+  .index_cta {
+    display: inline-block;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
   .index_cta2 {
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.2);
@@ -115,6 +129,19 @@ a {
     box-shadow: 1px 4px rgba(0, 0, 0, 0.35);
     margin-bottom: 10px;
     align-items: center;
+  }
+
+  .index_cta {
+    display: inline-block;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
   }
 
   h2 {

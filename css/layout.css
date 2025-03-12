@@ -18,6 +18,10 @@ header {
   padding: 20px;
 }
 
+footer {
+  padding: 20px;
+}
+
 /* Tablet */
 @media (width>=700px) {
   main {
