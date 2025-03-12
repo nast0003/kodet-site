@@ -18,6 +18,9 @@ p {
   padding: 10px;
 }
 
+.p_profil {
+  text-align: center;
+}
 img {
   height: 200px;
   width: 200px;
@@ -34,16 +37,18 @@ img {
   margin: auto;
 }
 
-h1 {
-  font-family: "Poiret One";
-}
-
+h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: "Poiret One";
   text-align: center;
+}
+
+.h1_index {
+  font-family: "Poiret One";
+  text-align: left;
 }
 
 h2 {
