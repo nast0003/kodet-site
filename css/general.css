@@ -18,16 +18,28 @@ p {
   padding: 10px;
 }
 
+img {
+  height: 200px;
+  width: 200px;
+  object-fit: cover;
+}
+
 h1,
 h2,
 h3,
 h4,
 h5 {
   font-family: "Poiret One";
+  text-align: center;
 }
 
 h2 {
   background-color: #e1d6c0;
+  text-align: center;
+}
+
+h3 {
+  text-align: right;
 }
 
 a {
@@ -40,6 +52,16 @@ a {
 }
 
 .section2 {
+  background-color: #e1d6c0;
+  padding: 20px;
+}
+
+.section3 {
+  background-color: #e1d6c0;
+  padding: 20px;
+}
+
+.section4 {
   background-color: #e1d6c0;
   padding: 20px;
 }
@@ -76,6 +98,18 @@ a {
   flex-direction: column;
   align-items: center;
   gap: 10px;
+}
+
+.guide_cta {
+  display: inline-block;
+  background-color: #6b692c;
+  padding: 1rem;
+  border-radius: 5rem;
+  font-family: "montserrat";
+  text-align: center;
+  box-shadow: 1px 3px rgba(0, 0, 0, 0.35);
+  margin: 10px;
+  align-items: center;
 }
 
 /* Tablet */
