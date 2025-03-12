@@ -26,6 +26,14 @@ img {
   margin: auto;
 }
 
+.profil_img {
+  height: 400px;
+  width: 400px;
+  object-fit: cover;
+  text-align: center;
+  margin: auto;
+}
+
 h1 {
   font-family: "Poiret One";
 }
@@ -68,6 +76,16 @@ a {
 }
 
 .section4 {
+  background-color: #e1d6c0;
+  padding: 20px;
+}
+
+.section5 {
+  background-color: #e1d6c0;
+  padding: 20px;
+}
+
+.section6 {
   background-color: #e1d6c0;
   padding: 20px;
 }
@@ -117,6 +135,15 @@ a {
   text-align: center;
   box-shadow: 1px 3px rgba(0, 0, 0, 0.35);
   margin: 10px;
+}
+
+.profil_cta {
+  display: inline-block;
+  background-color: #e1d6c0;
+  padding: 1rem;
+  border-radius: 5rem;
+  font-family: "montserrat";
+  border: 1px solid black;
 }
 
 /* Tablet */

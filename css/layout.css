@@ -41,6 +41,11 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
+
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
+  }
 }
 
 /* Desktop */
@@ -59,5 +64,10 @@ footer {
   .grid_1-1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  }
+
+  .grid_2-2-2-2 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr 2fr;
   }
 }
