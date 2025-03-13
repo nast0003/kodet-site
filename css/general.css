@@ -30,8 +30,8 @@ img {
 }
 
 .profil_img {
-  height: 400px;
-  width: 400px;
+  height: 350px;
+  width: 350px;
   object-fit: cover;
   text-align: center;
   margin: auto;
@@ -50,10 +50,6 @@ h5 {
   font-family: "Poiret One";
   text-align: left;
   font-size: 2rem;
-}
-
-.h1_footer {
-  text-align: left;
 }
 
 h1 {

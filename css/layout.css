@@ -24,6 +24,8 @@ ul {
 .logo {
   width: 125px;
   height: 125px;
+  display: grid;
+  justify-content: left;
 }
 
 header {
@@ -74,6 +76,8 @@ header {
 
 footer {
   padding: 20px;
+  display: grid;
+  justify-content: left;
 }
 
 .grid-1-1_item {
@@ -84,7 +88,7 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
-  padding-top: 100px;
+  padding-top: 50px;
   padding-left: 100px;
 }
 
