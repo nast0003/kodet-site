@@ -92,6 +92,11 @@ footer {
   padding-left: 100px;
 }
 
+.col {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
 /* Tablet */
 @media (width>=700px) {
   main {
@@ -106,6 +111,7 @@ footer {
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
+    padding-right: 200px;
   }
   .grid_1-1-1-1 {
     display: grid;

@@ -16,14 +16,15 @@ p {
   font-family: "montserrat";
   padding: 10px;
   font-size: 1rem;
+  text-align: center;
 }
 
 .p_profil {
   text-align: center;
 }
 img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   object-fit: cover;
   text-align: center;
   margin: auto;
@@ -37,6 +38,11 @@ img {
   margin: auto;
 }
 
+img_index {
+  height: 300px;
+  width: 300px;
+}
+
 h1,
 h2,
 h3,
@@ -44,6 +50,7 @@ h4,
 h5 {
   font-family: "Poiret One";
   text-align: center;
+  align-items: center;
 }
 
 .h1_index {
@@ -84,6 +91,7 @@ a {
 .section3 {
   background-color: #e1d6c0;
   padding: 20px;
+  padding-bottom: 50px;
 }
 
 .section4 {
@@ -94,11 +102,13 @@ a {
 .section5 {
   background-color: #e1d6c0;
   padding: 20px;
+  padding-top: 50px;
 }
 
 .section6 {
   background-color: #e1d6c0;
   padding: 20px;
+  padding-bottom: 50px;
 }
 
 .index_cta {
@@ -296,12 +306,20 @@ a {
     margin: 10px auto;
     justify-content: center;
   }
+
+  .profil_img {
+    padding-right: 75px;
+  }
 }
 
 /* Desktop */
 @media (width>=1200px) {
   .style-guide-ctas {
     grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .profil_img {
+    padding-right: 75px;
   }
 
   .index_cta2 {
