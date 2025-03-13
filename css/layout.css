@@ -84,6 +84,8 @@ footer {
   display: flex;
   flex-direction: column;
   row-gap: 12px;
+  padding-top: 100px;
+  padding-left: 100px;
 }
 
 /* Tablet */
