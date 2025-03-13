@@ -140,9 +140,18 @@ a {
   gap: 10px;
 }
 
+.style-guide-ctas {
+  display: grid;
+  justify-content: space-evenly;
+  font-family: "montserrat";
+  grid-template-columns: 1fr;
+  gap: 30px;
+  row-gap: 50px;
+}
+
 .guide_cta {
   display: flex;
-  width: 400px;
+  width: 250px;
   height: 60px;
   background-color: #6b692c;
   color: black;
@@ -160,10 +169,10 @@ a {
 .profil_cta {
   display: inline-block;
   height: 55px;
-  width: 250px;
+  width: 100%;
   background-color: #e1d6c0;
   padding: 1rem;
-  border-radius: 5rem;
+  border-radius: 12px;
   font-family: "montserrat";
   border: 1px solid black;
   justify-content: center;
@@ -213,6 +222,10 @@ a {
     font-size: 16px;
   }
 
+  .style-guide-ctas {
+    grid-template-columns: 1fr 1fr;
+  }
+
   .index_cta {
     display: flex;
     width: 250px;
@@ -279,24 +292,15 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
-  }
-
-  .profil_cta {
-    display: inline-block;
-    height: 55px;
-    width: 250px;
-    background-color: #e1d6c0;
-    padding: 1rem;
-    border-radius: 5rem;
-    font-family: "montserrat";
-    border: 1px solid black;
-    justify-content: center;
-    text-align: center;
   }
 }
 
 /* Desktop */
 @media (width>=1200px) {
+  .style-guide-ctas {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
   .index_cta2 {
     display: flex;
     background-color: rgba(0, 0, 0, 0.2);
@@ -362,19 +366,6 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
-  }
-
-  .profil_cta {
-    display: inline-block;
-    height: 55px;
-    width: 250px;
-    background-color: #e1d6c0;
-    padding: 1rem;
-    border-radius: 5rem;
-    font-family: "montserrat";
-    border: 1px solid black;
-    justify-content: center;
-    text-align: center;
   }
 
   h2 {

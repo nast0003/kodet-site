@@ -21,12 +21,21 @@ ul {
   font-family: "montserrat";
 }
 
+.logo {
+  width: 125px;
+  height: 125px;
+}
+
 header {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 20px;
   background-color: #d8a377;
+  position: sticky;
+  top: 0;
+  box-shadow: 0 0 6px 2px #00000030;
+  z-index: 999;
 }
 
 nav {
@@ -39,6 +48,7 @@ nav {
   list-style: none;
   margin: 0;
   padding: 0;
+  align-items: center;
 }
 
 .menu li {
@@ -66,11 +76,27 @@ footer {
   padding: 20px;
 }
 
+.grid-1-1_item {
+  text-align: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+}
+
 /* Tablet */
 @media (width>=700px) {
   main {
     margin: 0 auto;
   }
+
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
   .grid_2-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -95,9 +121,12 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
 
-  .grid_2-2-2-2 {
+  .grid_1-1-1 {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: 66%;
+    margin: auto;
   }
 }
 
@@ -126,10 +155,17 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   }
-
-  .grid_2-2-2-2 {
+  .grid_1-1-1 {
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    width: 66%;
+    margin: auto;
+  }
+
+  .grid_1-1 {
+    max-width: 800px;
+    margin: auto;
   }
 }
 
