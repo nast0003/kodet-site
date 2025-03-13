@@ -162,7 +162,9 @@ a {
 }
 
 .header_cta {
-  display: inline-block;
+  display: flex;
+  width: 130px;
+  height: 55px;
   background-color: #d4762c;
   color: black;
   border-radius: 5rem;
@@ -172,7 +174,25 @@ a {
   box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
   align-items: center;
   margin-bottom: 10px;
-  margin: auto;
+  margin: 10px auto;
+  justify-content: center;
+}
+
+.header_cta2 {
+  display: flex;
+  width: 145px;
+  height: 55px;
+  background-color: #d4762c;
+  color: black;
+  border-radius: 5rem;
+  padding: 1rem;
+  text-decoration: none;
+  font-family: "montserrat";
+  box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+  align-items: center;
+  margin-bottom: 10px;
+  margin: 10px auto;
+  justify-content: center;
 }
 
 /* Tablet */
@@ -218,6 +238,39 @@ a {
     text-align: center;
     margin: 10px auto;
   }
+
+  .header_cta {
+    display: flex;
+    width: 135px;
+    height: 55px;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  .header_cta2 {
+    display: flex;
+    width: 145px;
+    height: 55px;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    justify-content: center;
+  }
 }
 
 /* Desktop */
@@ -254,6 +307,39 @@ a {
     align-items: center;
     text-align: center;
     margin: 10px auto;
+  }
+
+  .header_cta {
+    display: flex;
+    width: 135px;
+    height: 55px;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    justify-content: center;
+  }
+  .header_cta2 {
+    display: flex;
+    width: 145px;
+    height: 55px;
+    background-color: #d4762c;
+    color: black;
+    border-radius: 5rem;
+    padding: 1rem;
+    text-decoration: none;
+    font-family: "montserrat";
+    box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+    align-items: center;
+    margin-bottom: 10px;
+    margin: 10px auto;
+    justify-content: center;
   }
 
   h2 {
