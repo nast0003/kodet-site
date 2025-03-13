@@ -1,5 +1,4 @@
-footer,
-header {
+footer {
   background-color: #d8a377;
 }
 
@@ -142,23 +141,33 @@ a {
 }
 
 .guide_cta {
-  display: inline-block;
+  display: flex;
+  width: 400px;
+  height: 60px;
   background-color: #6b692c;
-  padding: 1rem;
+  color: black;
   border-radius: 5rem;
+  padding: 1rem;
+  text-decoration: none;
   font-family: "montserrat";
+  box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
+  align-items: center;
   text-align: center;
-  box-shadow: 1px 3px rgba(0, 0, 0, 0.35);
-  margin: 10px;
+  margin: 10px auto;
+  justify-content: center;
 }
 
 .profil_cta {
   display: inline-block;
+  height: 55px;
+  width: 250px;
   background-color: #e1d6c0;
   padding: 1rem;
   border-radius: 5rem;
   font-family: "montserrat";
   border: 1px solid black;
+  justify-content: center;
+  text-align: center;
 }
 
 .header_cta {
@@ -271,6 +280,19 @@ a {
     margin: 10px auto;
     justify-content: center;
   }
+
+  .profil_cta {
+    display: inline-block;
+    height: 55px;
+    width: 250px;
+    background-color: #e1d6c0;
+    padding: 1rem;
+    border-radius: 5rem;
+    font-family: "montserrat";
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
+  }
 }
 
 /* Desktop */
@@ -340,6 +362,19 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
+  }
+
+  .profil_cta {
+    display: inline-block;
+    height: 55px;
+    width: 250px;
+    background-color: #e1d6c0;
+    padding: 1rem;
+    border-radius: 5rem;
+    font-family: "montserrat";
+    border: 1px solid black;
+    justify-content: center;
+    text-align: center;
   }
 
   h2 {

@@ -21,8 +21,41 @@ ul {
   font-family: "montserrat";
 }
 
-.h1_header {
-  font-family: "Poiret One";
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #d8a377;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+}
+
+.menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  margin-right: 20px;
+}
+
+.menu li:last-child {
+  margin-right: 0;
+}
+
+.menu a {
+  display: block;
+  padding: 10px;
+  color: #333333;
+  text-decoration: none;
+  transition: color 0.3s;
+  text-align: end;
 }
 
 header {
@@ -45,6 +78,16 @@ footer {
   .grid_1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    align-items: center;
+    column-gap: 30px;
+  }
+
+  .index_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-items: center;
   }
 
   .grid_1-1-1-1-1 {
@@ -71,6 +114,14 @@ footer {
     align-items: center;
   }
 
+  .index_flex {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 200px;
+    justify-content: center;
+    align-items: center;
+  }
+
   .grid_1-1-1-1-1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
@@ -79,5 +130,11 @@ footer {
   .grid_2-2-2-2 {
     display: grid;
     grid-template-columns: 2fr 2fr 2fr 2fr;
+  }
+}
+
+@media (max-width: 700px) {
+  header {
+    display: none;
   }
 }
