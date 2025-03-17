@@ -64,11 +64,9 @@ nav {
 
 .menu a {
   display: block;
-  padding: 10px;
   color: #333333;
   text-decoration: none;
   transition: color 0.3s;
-  text-align: end;
 }
 
 header {

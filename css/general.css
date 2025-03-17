@@ -56,6 +56,7 @@ h5 {
 .h1_index {
   font-family: "Poiret One";
   text-align: left;
+  justify-content: left;
   font-size: 2rem;
 }
 
@@ -72,6 +73,7 @@ h2 {
 
 h3 {
   text-align: right;
+  font-size: 2rem;
 }
 
 a {
@@ -111,9 +113,14 @@ a {
   padding-bottom: 50px;
 }
 
+.p_index {
+  text-align: left;
+  padding: 0;
+}
+
 .index_cta {
   display: flex;
-  width: 250px;
+  width: 300px;
   height: 55px;
   background-color: #d4762c;
   color: black;
@@ -122,8 +129,9 @@ a {
   text-decoration: none;
   font-family: "montserrat";
   box-shadow: 1px 3px rgba(103, 103, 103, 0.35);
-  align-items: center;
+  align-items: left;
   text-align: center;
+  justify-content: center;
   margin-bottom: 10px;
   margin: 10px auto;
 }
@@ -194,7 +202,7 @@ a {
 
 .header_cta {
   display: flex;
-  width: 130px;
+  width: 150px;
   height: 55px;
   background-color: #d4762c;
   color: black;
@@ -207,12 +215,14 @@ a {
   margin-bottom: 10px;
   margin: 10px auto;
   justify-content: center;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 .header_cta2 {
   display: flex;
-  width: 145px;
+  width: 150px;
   height: 55px;
   background-color: #d4762c;
   color: black;
@@ -225,7 +235,9 @@ a {
   margin-bottom: 10px;
   margin: 10px auto;
   justify-content: center;
+  justify-content: center;
   text-align: center;
+  align-items: center;
 }
 
 /* Tablet */
@@ -233,6 +245,12 @@ a {
   h2 {
     background-color: #e1d6c0;
   }
+
+  .p_index {
+    text-align: left;
+    padding: 0;
+  }
+
   .button-text {
     font-size: 16px;
   }
@@ -243,7 +261,7 @@ a {
 
   .index_cta {
     display: flex;
-    width: 250px;
+    width: 300px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -278,7 +296,7 @@ a {
 
   .header_cta {
     display: flex;
-    width: 135px;
+    width: 150px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -291,10 +309,13 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
   .header_cta2 {
     display: flex;
-    width: 145px;
+    width: 150px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -307,6 +328,9 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
   }
 
   .profil_img {
@@ -344,7 +368,7 @@ a {
 
   .index_cta {
     display: flex;
-    width: 250px;
+    width: 300px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -360,7 +384,7 @@ a {
 
   .header_cta {
     display: flex;
-    width: 135px;
+    width: 150px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -373,11 +397,13 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
+    justify-content: center;
     text-align: center;
+    align-items: center;
   }
   .header_cta2 {
     display: flex;
-    width: 145px;
+    width: 150px;
     height: 55px;
     background-color: #d4762c;
     color: black;
@@ -390,10 +416,16 @@ a {
     margin-bottom: 10px;
     margin: 10px auto;
     justify-content: center;
+    justify-content: center;
     text-align: center;
+    align-items: center;
   }
 
   h2 {
     background-color: #e1d6c0;
+  }
+  .p_index {
+    text-align: left;
+    padding: 0;
   }
 }
