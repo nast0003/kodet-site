@@ -26,6 +26,7 @@ ul {
   height: 125px;
   display: grid;
   justify-content: left;
+  border-radius: 5rem;
 }
 
 header {
